@@ -89,27 +89,6 @@ class ImageProcessingApp:
             ("Huffman", self.huffman_encoding),
             ("Shannon", self.shannon_fano_encoding),
             ("Arithmetic Encoding", self.arithmetic_encoding),
-            
-            
-            
-            
-            # ("Show Histogram (Gray)", self.show_histogram_gray),
-            # ("Show Histogram (RGB)", self.show_histogram_rgb),
-            # ("Histogram Equalization", self.histogram_equalization),
-            # ("Contrast Stretching", self.contrast_stretching),
-            # ("Negative Transformation", self.negative_transformation),
-            # ("Log Transformation", self.log_transformation),
-            # ("Power Law Transformation", self.power_law_transformation),
-            # ("Gaussian Blur", self.apply_gaussian_blur),
-            # ("Average Blur", self.apply_average_blur),
-            # ("Median Blur", self.apply_median_blur),
-            # ("Max Blur", self.apply_max_blur),
-            # ("Min Blur", self.apply_min_blur),
-            # ("Add Gaussian Noise", self.add_gaussian_noise),
-            # ("Add Salt & Pepper Noise", self.add_salt_pepper_noise),
-            # ("Sharpening Filters", self.sharpening_filters),
-            # ("Edge Detection (Sobel)", self.sobel_edge_detection),
-            # ("Edge Detection (Canny)", self.canny_edge_detection),
         ]
 
         self.buttons = []  # Store button widgets for styling
